@@ -1,38 +1,218 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+/* /  width: 100%;
+  height: 100%; */
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .App{
+ 
+  width: 100%;
+  height: max-content;
+} */
+
+.logo-text{
+  font-family: Mongolian Baiti;
+  font-size: 32px;
+  text-align: left;
+  margin-left: 25px;
+  padding-top: 22px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo-box{
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.design{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+.logo-bg{
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+
+.left-sidbar{
+  width: 100%;
+  height:max-content;
+  border-radius: 10px;
+  /* opacity: 100%; */
+  background-color: white;
+  color: black;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.ul-design{
+  list-style-type: none;
+ 
+}
+
+.li-text{
+padding-top: 10%;
+/* padding-left: 5px; */
+font-size: 16px;
+color: #8D8D8D;
+font-family: SemiBold;
+/* display: inline-block; */
+opacity: 1;
+}
+
+.li-img{
+  height: 18px;
+  width: 18px;
+  margin-right: 10px;
+}
+
+.right-box{
+  height: 80px;
+  width: 100%;
+  background-color: #88C2BB;
   color: white;
+  text-align: center;
+  border-radius: 10px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.right-box-text{
+ padding-top: 10%;
+ font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.right-text{
+  display: flex;
+
+}
+
+.artists{
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.card-box-img1{
+  height: 140px;
+  width: 100%;
+  background-image: url('../public/img/pexels-1.png');
+  background-size: 100% 100%;
+  /* position: relative; */
+}
+
+.card-box-img2{
+  height: 140px;
+  width: 100%;
+  background-image: url('../public/img/pexels-2.png');
+  background-size: 100% 100%;
+  /* position: relative; */
+}
+.card-box-img3{
+  height: 140px;
+  width: 100%;
+  background-image: url('../public/img/pexels-3.png');
+  background-size: 100% 100%;
+  /* position: relative; */
+}
+.card-box-img4{
+  height: 140px;
+  width: 100%;
+  background-image: url('../public/img/pexels-4.png');
+  background-size: 100% 100%;
+  /* position: relative; */
+}
+
+.right-img-text{
+  display: flex;
+  padding-top: 25%;
+  color: white;
+  /* position: absolute;
+  bottom: 8px;
+  left: 16px; */
+}
+
+.right-img-bg{
+  width: 48px;
+  height: 48px;
+  /* border-radius: 10px;
+  border: solid 2px white; */
+}
+
+.search-box{
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.input-search{
+width: 200px;
+height: 30px;
+border-radius: 10px;
+border: solid 1px rgba(255,255,255,.5);
+}
+
+.main-box{
+  height: max-content;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.heading{
+  float: right;
+  margin-left: 15px;
+  /* font-size: 20px;
+  font-weight: bold; */
+}
+.heading-name{
+  font-size: 20px;
+  letter-spacing: 0px;
+color: #101010;
+opacity: 1;
+line-height: 0.7;
+}
+
+.text-decoration{
+
+}
+.main-img-bg{
+  width: 100%;
+  height: 306px;
+
+}
+
+.hr{
+  border: 2px solid #F3F3F3;
+  opacity: 1;
+
+}
+.comment-text{
+  width: max-content;
+  margin-right: 10px;
+}
+
+.right-sub-title{
+  font-size: 12px;
+}
+.right-title{
+  font-size: 16px;
+}
+
+.slider-box{
+  height: 300px;
+  width: 350px;
+  border-radius: 25px;
+}
+.slider-img{
+  height: 180px;
+  width: 252px;
+  border-radius: 20px 20px 20px 20px;
 }
